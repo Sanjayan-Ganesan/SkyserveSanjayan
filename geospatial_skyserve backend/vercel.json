@@ -1,0 +1,14 @@
+{
+
+    "version": 2,
+    "builds": [
+      {
+        "src": "backend/index.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "geospatial_skyserve",
+        "use": "@vercel/node"
+      }
+    ]
+}
